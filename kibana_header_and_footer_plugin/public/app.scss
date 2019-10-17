@@ -1,0 +1,31 @@
+body::after {
+  content: "CHANGE ME";
+  position: fixed;
+  top: 0;
+  padding: 2px;
+  z-index: 99999999;
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+#kibana-body:after {
+  content: "CHANGE ME";
+  position: fixed;
+  bottom: 0;
+  padding: 2px;
+  z-index: 99999999;
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+.header-global-wrapper {
+  top: 15px !important;
+}
+.euiNavDrawer .euiNavDrawer__expandButton {
+  bottom: 15px !important;
+}
+.app-wrapper-panel {
+  margin-bottom: 25px !important;
+}
